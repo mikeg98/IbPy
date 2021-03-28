@@ -5,8 +5,8 @@
     "version" : "1.0.0",
     "title" : "IBKR 3rd Party Web API"
   },
-  "host" : "www.interactivebrokers.com",
-  "basePath" : "/tradingapi/v1",
+  "host" : "virtserver.swaggerhub.com",
+  "basePath" : "/mikeg98/gazsi_ibkr-3rd_party_web_api/1.0.0",
   "schemes" : [ "https" ],
   "produces" : [ "application/json" ],
   "security" : [ {
@@ -771,7 +771,7 @@
     },
     "orderStatus" : {
       "type" : "string",
-      "description" : "Status of the order\nInvalidOrderStatus = '-1'\nNew = '0'\nPartiallyFilled = '1'\nFilled = '2'\nDoneForTheDay = '3'\nCanceled = '4'\nReplaced = '5'\nPendingCancelReplace = '6'\nStopped = '7'\nRejected = '8'\nSuspended = '9'\nPendingNew = 'A'\nCalculated = 'B'\nExpired = 'C'\nAcceptedForBidding = 'D'\nPendingReplace = 'E'",
+      "description" : "Status of the order\nInvalidOrderStatus = '-1'\nNew = '0'\nPartiallyFilled = '1'\nFilled = '2'\nDoneForTheDay = '3'\nCanceled = '4'\nReplaced = '5'\nPendingCancelReplace = '6'\nStopped = '7'\nRejected = '8'\nSuspended = '9'\nPendingNew = 'A'\nCalculated = 'B'\nExpired = 'C'\nAcceptedForBidding = 'D'\nPendingReplace = 'E'\n",
       "enum" : [ "-1", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "A", "B", "C", "D", "E" ]
     },
     "body" : {
